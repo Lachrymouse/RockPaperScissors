@@ -31,13 +31,11 @@ function game(){
             let result = playRound(computerPlay(),playerSelection);
             if(result=="win")playerWins++;
             else if(result=="loss")computerWins++;
-            console.log("Round"+count+":"+result);
+            console.log("Round "+count+" : "+result);
             count++;
         }
-        else alert("wrong input!");
+        else alert("Wrong input!");
     }
-        
-
-
+    console.log("Wins = "+playerWins);
 }
 game();
