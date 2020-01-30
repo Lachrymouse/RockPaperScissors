@@ -36,6 +36,7 @@ function game(){
         }
         else alert("Wrong input!");
     }
-    console.log("Wins = "+playerWins);
+    console.log("Score = "+playerWins+":"+computerWins);
+    console.log((playerWins>computerWins) ? "You win." : "Computer wins.");
 }
 game();
